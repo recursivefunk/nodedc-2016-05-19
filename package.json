@@ -1,0 +1,24 @@
+{
+  "name": "nodedc-2016-05-16",
+  "version": "1.0.0",
+  "description": "Demo code for NodeDC talk given May 19, 2016",
+  "main": "index.js",
+  "scripts": {
+      "test": "node test/test.js"
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/recursivefunk/nodedc-2016-06-19.git"
+  },
+  "author": "Johnny Ray Austin",
+  "license": "MIT",
+  "dependencies": {
+    "stampit": "^2.1.1"
+  },
+  "devDependencies": {
+    "tape": "^4.5.1"
+  },
+  "engines": {
+      "node": "6.x"
+  }
+}
