@@ -4,8 +4,8 @@
 const component = require('stampit')
 
 module.exports = component()
-  .init(function() {
-    this.steps = 0
+  .props({
+    steps: 0
   })
   .methods({
     walkForward(numSteps) {
