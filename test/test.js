@@ -33,7 +33,6 @@ test('it works', (t) => {
   t.notOk(cat.getName, `the cat component doesn't have a getName function`)
 
   console.log('\n')
-  // Oh snap, polymorphism!!
   dog.eat()
   cat.eat()
 
